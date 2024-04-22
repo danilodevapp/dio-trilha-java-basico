@@ -7,6 +7,12 @@ public class TiposVariaveis {
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal;
+        
+        String nomeUM = "Danilo";
+        String nomeDois =  "Estevão";
+
+        boolean confirma = nomeUM == nomeDois;
+        System.out.println("Confirma se nomes são iguais: " + confirma);
 
         int numero = 1;
         numero = 2;
